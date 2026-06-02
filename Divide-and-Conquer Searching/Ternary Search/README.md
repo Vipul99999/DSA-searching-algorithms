@@ -1,4 +1,3 @@
-````md
 # 🔺 Ternary Search
 
 <div align="center">
