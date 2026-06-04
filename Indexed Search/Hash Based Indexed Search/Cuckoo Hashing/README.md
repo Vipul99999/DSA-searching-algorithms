@@ -88,27 +88,6 @@ Search checks only these locations.
 
 ---
 
-# Algorithm Used
-
-## Two hash functions:
-
-h1(key) = key % TABLE_SIZE
-h2(key) = (key / TABLE_SIZE) % TABLE_SIZE
-
-## Collision handling:
-
-Insert K
-↓
-If occupied
-↓
-Evict existing key
-↓
-Move evicted key to alternate table
-↓
-Repeat
-↓
-Rehash if cycle detected
-
 # Components
 
 ## Hash Functions
